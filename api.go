@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/gorilla/mux"
-	"github.com/shurcooL/go/github_flavored_markdown"
+	"github.com/renstrom/go-wiki/vendor/_nuts/github.com/gorilla/mux"
+	"github.com/renstrom/go-wiki/vendor/_nuts/github.com/shurcooL/go/github_flavored_markdown"
 )
 
 func DiffHandler(w http.ResponseWriter, r *http.Request) {

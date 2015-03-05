@@ -8,7 +8,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gorilla/mux"
+	"github.com/renstrom/go-wiki/vendor/_nuts/github.com/gorilla/mux"
 )
 
 const imageTypes = ".jpg .jpeg .png .gif"

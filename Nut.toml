@@ -1,0 +1,13 @@
+[application]
+
+name = "go-wiki"
+version = "0.0.1"
+authors = ["Peter Renström <renstrom.peter@gmail.com>"]
+
+[dependencies]
+
+"github.com/codegangsta/negroni" = ""
+"github.com/gorilla/mux" = ""
+"github.com/ogier/pflag" = ""
+"github.com/russross/blackfriday" = ""
+"github.com/shurcooL/go/github_flavored_markdown" = ""

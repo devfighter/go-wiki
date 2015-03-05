@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/codegangsta/negroni"
-	"github.com/gorilla/mux"
-	flag "github.com/ogier/pflag"
+	"github.com/renstrom/go-wiki/vendor/_nuts/github.com/codegangsta/negroni"
+	"github.com/renstrom/go-wiki/vendor/_nuts/github.com/gorilla/mux"
+	flag "github.com/renstrom/go-wiki/vendor/_nuts/github.com/ogier/pflag"
 )
 
 const Usage = `Usage: gowiki [options...] <path>
